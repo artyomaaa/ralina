@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="hotel, bed and breakfast, accommodations, travel, motel">
+    <meta name="description" content="Ralina - Hotel and Bed&amp;Breakfast">
+    <title>Ralina - Hotel and Bed&amp;Breakfast</title>
+
+    <!--    &lt;!&ndash; Favicons&ndash;&gt;-->
+    <link rel="shortcut icon" href="images/onlinelogomaker-013020-1354-2410.png">
+    <!-- GOOGLE WEB FONT -->
+    <!--    <link href="css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- BASE CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- SPECIFIC CSS -->
+    <link rel="stylesheet" type="text/css" href="css/DateTimePicker.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+</head>
+
+<body>
+<div class="layer"></div>
+<!-- Mobile menu overlay mask -->
+
+<div id="preloader" style="display: none;">
+    <div data-loader="circle-side" style="display: none;"></div>
+</div><!-- End Preload -->
+
+<!-- Header ================================================== -->
+<header class="">
+    <div class="container">
+        <div class="row">
+            <div class="col--md-3 col-sm-3 col-xs-3">
+                <a href="index.html" id="logo">
+                    <img src="images/onlinelogomaker-013020-1338-8212.png" width="190" height="23" alt=""
+                         data-retina="true">
+
+                </a>
+            </div>
+            <nav class="col--md-9 col-sm-9 col-xs-9">
+                <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
+                <ul id="lang_top">
+                    <li>
+                        <a href="#" class="active">
+                            <img src="images/usa-16.png" alt="EN">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/armenia-16.png" alt="EN">
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="main-menu">
+                    <div id="header_menu">
+                        <img src="images/onlinelogomaker-013020-1324-5539.png" width="141" height="40" alt=""
+                             data-retina="true">
+                    </div>
+                    <a href="index.html" class="open_close" id="close_in"><span>X</span>
+                           </a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us </a></li>
+                        <li><a href="rooms.html">Rooms </a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="tel://0037455080133" class="phone">
+                            <img src="images/phone-20.png" alt=""
+                                                                             class="delay-01s animated wow wobble"
+                                                                             data-wow-offset="1"
+                                                                             data-wow-iteration="200">(00) 00-00-00</a>
+                        </li>
+                    </ul>
+                </div><!-- End main-menu -->
+            </nav>
+        </div><!-- End row -->
+    </div><!-- End container -->
+</header>
+<!-- End Header =============================================== -->
+
+<!-- SubHeader =============================================== -->
+<div class="parallax-window" id="booking" data-parallax="scroll" data-image-src="images/ralinahome_1.jpg"
+     data-natural-width="1000" data-natural-height="550">
+    <div id="subheader_home">
+        <div id="sub_content">
+            <br><br><br>
+            <div id="book_container">
+                <form method="post" action=""
+                      id="check_avail_home" autocomplete="off">
+                    <div id="group_1">
+                        <div id="container_1">
+                            <label>Arrival date</label>
+                            <input class="startDate1 form-control datepick" type="text" data-field="date"
+                                   data-startend="start" data-startendelem=".endDate1" readonly="" placeholder="Arrival"
+                                   id="check_in" name="check_in">
+
+                            <span class="input-icon">
+                               <i class="fa fa-calendar fa-fw"></i>
+                            </span>
+                        </div>
+                        <div id="container_2">
+                            <label>Departure date</label>
+                            <input class="endDate1 form-control datepick" type="text" data-field="date"
+                                   data-startend="end" data-startendelem=".startDate1" readonly=""
+                                   placeholder="Departure" id="check_out" name="check_out">
+                            <span class="input-icon"> <i class="fa fa-calendar fa-fw"></i></span>
+                        </div>
+                    </div><!-- End group_1 -->
+                    <div id="group_2">
+                        <div id="container_3">
+                            <label>Adults</label>
+                            <div class="qty-buttons">
+                                <input type="button" value="-" class="qtyminus" name="adults">
+                                <input type="text" name="adults" id="adults" value="" class="qty form-control"
+                                       placeholder="0">
+                                <input type="button" value="+" class="qtyplus" name="adults">
+                            </div>
+                        </div>
+                        <div id="container_4">
+                            <label>Children</label>
+                            <div class="qty-buttons">
+                                <input type="button" value="-" class="qtyminus" name="children">
+                                <input type="text" name="children" id="children" value="" class="qty form-control"
+                                       placeholder="0">
+                                <input type="button" value="+" class="qtyplus" name="children">
+                            </div>
+                        </div>
+                    </div><!-- End group_2 -->
+                    <div id="group_3">
+                        <div id="container_5">
+                            <label>Name</label>
+                            <input type="text" class="form-control" name="name_booking" id="name_booking"
+                                   placeholder="Name and Last name">
+                        </div>
+                        <div id="container_6">
+                            <label>Email</label>
+                            <input type="text" class="form-control" name="email_booking" id="email_booking"
+                                   placeholder="Your email">
+                        </div>
+                    </div><!-- End group_3 -->
+                    <div id="container_7">
+                        <input type="submit" value="Check availability" class="btn_1" id="submit-booking">
+                    </div>
+                </form>
+                <div id="message-booking"></div>
+            </div><!-- End book_container -->
+        </div><!-- End sub_content -->
+    </div><!-- End subheader -->
+</div><!-- End parallax-window -->
+
+
+<div class="container_styled_1">
+    <div class="container margin_60">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <figure class="room_pic"><a href="rooms.html"><img
+                        src="images/room_home_1.jpg" alt="" class="img-responsive"></a>
+                    <span class="wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><sup>$</sup>120<small>Per night</small></span>
+                </figure>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <div class="room_desc_home">
+                    <h3>Single Room </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                    <ul>
+                        <li>
+                            <div class="tooltip_styled tooltip-effect-4">
+                                <span class="tooltip-item">
+                                    <i class="fa fa-bed"></i>
+
+                                    </i>
+                                </span>
+                                <div class="tooltip-content">
+                                    King size bed
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip_styled tooltip-effect-4">
+                                <span class="tooltip-item"><i class="fa fa-bath"></i></span>
+                                <div class="tooltip-content">
+                                    Shower
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip_styled tooltip-effect-4">
+                                <span class="tooltip-item"><i class="fa fa-tv"></i></span>
+                                <div class="tooltip-content">
+                                    Plasma TV
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip_styled tooltip-effect-4">
+                                <span class="tooltip-item"><i class="fa fa-wifi"></i></span>
+                                <div class="tooltip-content">
+                                    Wifi
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="rooms_detail.html" class="btn_1_outline">Read more</a>
+                </div><!-- End room_desc_home -->
+            </div>
+        </div><!-- End row -->
+    </div><!-- End container -->
+</div><!-- End container_styled_1 -->
+
+<div class="container margin_60">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1 col-md-push-5">
+            <figure class="room_pic left"><a href="rooms.html"><img
+                    src="images/room_home_3.jpg" alt="" class="img-responsive"></a><span
+                    class="wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><sup>$</sup>150<small>Per night</small></span>
+            </figure>
+        </div>
+        <div class="col-md-4 col-md-offset-1 col-md-pull-6">
+            <div class="room_desc_home">
+                <h3>Double Room </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <ul>
+                    <li>
+                        <div class="tooltip_styled tooltip-effect-4">
+                            <span class="tooltip-item">  <i class="fa fa-bed"></i></span>
+                            <div class="tooltip-content">
+                                King size bed
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tooltip_styled tooltip-effect-4">
+                            <span class="tooltip-item"><i class="fa fa-bath"></i></span>
+                            <div class="tooltip-content">
+                                Bathtub
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tooltip_styled tooltip-effect-4">
+                            <span class="tooltip-item"><i class="fa fa-tv"></i></i></span>
+                            <div class="tooltip-content">
+                                Plasma TV
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tooltip_styled tooltip-effect-4">
+                            <span class="tooltip-item"><i class="fa fa-archive"></i></span>
+                            <div class="tooltip-content">
+                                Safe box
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tooltip_styled tooltip-effect-4">
+                            <span class="tooltip-item"><i class="fa fa-wifi"></i></span>
+                            <div class="tooltip-content">
+                                Welcome bottle
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="rooms_detail.html" class="btn_1_outline">Read more</a>
+            </div><!-- End room_desc_home -->
+        </div>
+    </div><!-- End row -->
+</div><!-- End container -->
+
+
+<div id="dtBox"></div><!-- End datepicker -->
+
+
+<hr>
+
+
+<style>
+    .slider {
+        /*width: 400px;*/
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        color: white;
+
+    }
+
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="slider ">
+            <div class="slide">
+                <a href="#">
+                    <img src="images/menu/1.jpg" alt="" class="img-responsive"/>
+                    <h2>xorovac</h2>
+                </a>
+            </div>
+            <div class="slide ">
+                <a href="#">
+                    <img src="images/menu/2.jpg" alt="" class="img-responsive"/>
+                    <h2>qabab</h2>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="images/menu/3.jpg" alt="" class="img-responsive"/>
+                    <h2>menu</h2>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="images/menu/4.jpg" alt="" class="img-responsive"/>
+                    <h2>xach</h2>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="images/menu/5.jpg" alt="" class="img-responsive"/>
+                    <h2>xachlama</h2>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img src="images/onlinelogomaker-013020-1411-7245.png" width="141" height="40" alt="" id="logo_footer"
+                     data-retina="true">
+                <ul id="contact_details_footer">
+                    <li>Ararti marz <br>gyux taperakan</li>
+                    <li><a href="tel://004542344599">+374 (55) 08-01-33</a> / <a
+                            href="#">artyom.aramyan@mail.ru</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Rooms</a></li>
+                    <li><a href="">Activities</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <h3>Change language</h3>
+                <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="">French</a></li>
+                    <li><a href="">Spanish</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-4" id="newsletter">
+                <h3>Newsletter</h3>
+                <p>Join our newsletter to keep be informed about offers and news.</p>
+                <div id="message-newsletter_2"></div>
+                <form method="post" action="" name="newsletter_2"
+                      id="newsletter_2">
+                    <div class="form-group">
+                        <input name="email_newsletter_2" id="email_newsletter_2" type="email" value=""
+                               placeholder="Your mail" class="form-control">
+                    </div>
+                    <input type="submit" value="Subscribe" class="btn_1 white" id="submit-newsletter_2">
+                </form>
+            </div>
+        </div><!-- End row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="social_footer">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="l#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                    <p>© Artem Aramyan 2019</p>
+                </div>
+            </div>
+        </div><!-- End row -->
+    </div><!-- End container -->
+</footer><!-- End footer -->
+
+<div id="toTop" style="display: none;">
+    <i class="fa fa-angle-up"></i>
+</div><!-- Back to top button -->
+
+<!-- COMMON SCRIPTS -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/common_scripts_min.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/functions.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAaO0WhIut5GCNr9y8xTA36EPj87NEHptM"></script>
+<script type="text/javascript" src="js/DateTimePicker.js"></script>
+<script type="text/javascript">$("#dtBox").DateTimePicker();</script>
+<script>
+    window.onload = function () {
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 1900,
+            arrows: false,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+    };
+
+</script>
+</body>
+</html>
